@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "Player",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mobile": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "serviceProvider": {
+      "type": "string"
+    },
+    "cycle": {
+      "type": "integer"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "q_id": {
+      "type": "json"
+    }
+  }
+}
